@@ -1,0 +1,105 @@
+input[type=number]::-webkit-inner-spin-button,
+input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+}
+#hint {
+    border-radius: 16% 16% 0 0;
+    border:3px solid #000;
+    width:400px;
+    height: 50px;
+    background-color:#7f8fa6;
+    font-family: impact;
+    font-size: 20px;
+    justify-content: center;
+    align-items: center;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 64px;
+    text-align: center;
+
+}
+
+#principal {
+    border: 3px solid #000;
+    border-radius:0 0 25% 25% ;
+    width: 400px;
+    height: 300px;
+    background-color:#7f8fa6;
+    display: block;
+    margin-top: 6px;
+    margin-left: auto;
+    margin-right: auto;
+    align-items: center;
+    justify-content: center;
+}
+#numero1, #numero2{
+    margin-left: 42px;
+    font-family: Impact;
+    font-size: 22px;
+    padding: 6px;
+
+
+}
+
+#num1, #num2 { 
+   border: 3px solid #000;
+   font-family: monospace;
+   font-size: 16px;
+   height: 16px;
+   width: 96px;
+   background-color: #b2bec3;
+   
+
+}
+#num1 {
+    margin: 3px;
+}
+
+#buttons {
+    justify-content: center;
+    align-items: center;
+    display: inline-table;
+    margin-left: 0 auto;
+    margin-right: 0 auto;
+    width: 100px;
+    margin-left: 140px;
+}
+#result {
+    
+    width: 50px;
+    height: 20px;
+    border: 3px solid #000;
+    text-align: center;
+    font-family: monospace;
+    font-size: 22px;
+    position: absolute;
+    margin-top: 6px;
+    background-color: #b2bec3;
+    
+}
+#label-result {
+    margin: 8px;
+    font-family: impact;
+    font-size: 32px;
+    padding-left: 84px;
+}
+#box-num{
+    margin-top: 16px;
+    margin-left: 34px;
+    margin-right: auto;
+    margin-bottom: 8px;
+}
+#adicao, #subtracao, #multiplicacao, #divisao {
+    font-size: 16px;
+    font-family: impact;
+    width: 50px;
+    border-radius: 25% 0 25% 0;
+    justify-content: center;
+    margin-top: 6px;
+    border: 3px solid #000;
+    margin-top: 3px;
+    margin-bottom: 3px;
+    background-color: #b2bec3;
+
+}

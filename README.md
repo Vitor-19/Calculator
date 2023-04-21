@@ -1,0 +1,1 @@
+A simple calculator, just select your two numbers and the operation you want to perform.
